@@ -1,5 +1,7 @@
-# English strings go here for Rails i18n
-en:
+# http://www.codeshare.io/gp3EK
+
+#Strings em português vem qui para Rails i18n    # English strings go here for Rails i18n
+pt-BR:
   datetime:
     formats:
       short: "%d/%m/%y, %H:%M"
@@ -38,25 +40,25 @@ en:
   re_are_you_sure: 'Você tem certeza?'
   re_was_updated: 'foi atualizado'
   re_was_created: 'foi criado'
-  re_tree_loading: 'Tree is loading...'
-  re_editor_for: 'Please wait, the editor for'
-  re_is_being_loaded: 'is loading...'
-  re_remove: 'remove'
-  re_to: 'to'
-  re_from: 'from'
-  re_hide: 'hide'
-  re_shows_after_reload: 'will be shown after a page reload'
-  re_no_one_line_view_existent: 'Template missing: No One_line_view defined yet'
-  re_scroll_to_top: 'Scroll to top'
-  re_associated_issues: 'Related Issues'
-  re_asscociated_requirements: 'Related Artifacts'
-  re_add_associated_requirements: 'Add related Artifacts'
-  add_issue_to_requirement: 'Add related Issue'
-  re_404_invalid_project_id: 'The project (or project ID) could not be found or is invalid'
-  re_404_artifact_not_found: 'The artifact (or artifact ID) could not be found'
-  re_404_artifact_not_found_or_project_missing: 'No artifact could not be found and no project ID was supplied'
-  re_confirm: 'Confirm'
-  re_artifact_details: 'Artifact Details'
+  re_tree_loading: 'A árvore está carregando'   #'Tree is loading...'
+  re_editor_for: 'Por favor espere, o editor para' #'Please wait, the editor for'
+  re_is_being_loaded: 'está carregando...'    #'is loading...'
+  re_remove: 'remover'  #'remove'
+  re_to: 'para' #'to'
+  re_from: 'de'   #'from'
+  re_hide: 'esconder'   #'hide'
+  re_shows_after_reload: 'será mostrado depois de recarregar a página'    #'will be shown after a page reload'
+  re_no_one_line_view_existent: 'Modelo não encontrado: Nenhum "One_line_view" definido ainda'  #'Template missing: No One_line_view defined yet'
+  re_scroll_to_top: 'Role o scroll até o topo da página'  #'Scroll to top'
+  re_associated_issues: 'Edições Relacionados'    #'Related Issues'
+  re_asscociated_requirements: 'Artefatos Relacionados' #'Related Artifacts'
+  re_add_associated_requirements: 'Adicionar Artefato relacionado'  #'Add related Artifacts'
+  add_issue_to_requirement: 'Adicionar edições relacionados'    #'Add related Issue'
+  re_404_invalid_project_id: 'O projeto (ou o identificador do projeto) não pode ser encontrado ou é inválido'    #'The project (or project ID) could not be found or is invalid'
+  re_404_artifact_not_found: 'O artefato (ou o identificador do artefato) não pode ser encontrado' #'The artifact (or artifact ID) could not be found'
+  re_404_artifact_not_found_or_project_missing: 'Nenhum artefato pode ser encontrado e nenhum identificador foi fornecido' #'No artifact could not be found and no project ID was supplied'
+  re_confirm: 'Confirmar'    #'Confirm'
+  re_artifact_details: 'Detalhes do Artefato'   #'Artifact Details'
   re_created_by: 'Created by'
   re_last_update: 'last update'
   re_by: 'by'
