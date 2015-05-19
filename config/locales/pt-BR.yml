@@ -272,7 +272,7 @@ pt-BR:
   re_refinement: 'Refinamento'	#'Refinement'
   relationship: 'Relacionamento'	#'Relationship'
   conflict: 'Conflito'	#'Conflict'
-  dependency: 'Dependência'	'Dependency'
+  dependency: 'Dependência'	#'Dependency'
   parentchild: 'Filho pai'	#'Parent Child'
   rationale: 'Relação lógica'	#'Rationale'
   part_of: 'Parte de'	#'Part of'
