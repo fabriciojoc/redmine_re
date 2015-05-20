@@ -551,7 +551,7 @@ pt-BR:
   re_updated_at: 'Atualizado' #'Updated'
 
   re_traces_to: 'Registrar para' #'Traces to'
-  re_traces_from: 'Regitrar de' #'Traces from'
+  re_traces_from: 'Registrar a partir de' #'Traces from'
 
   re_query_visibility_public: 'público' #'public'
   re_query_visibility_me: 'somente eu' #'just me'
