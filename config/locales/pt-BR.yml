@@ -451,7 +451,7 @@ pt-BR:
   re_new_re_processword: 'Novo Processword' #'New Processword'
   re_processword_priority: 'Prioridade' #'Priority'
   re_create_re_processword: 'Criar um novo Processword' #'Create a new Processword'
-  re_processword_saved: ''  'Processword salvo com sucesso' #'Processword successfully saved'
+  re_processword_saved: 'Processword salvo com sucesso' #'Processword successfully saved'
   re_processword_deleted: 'O Processword %{name} foi excluído'  #'The Processword %{name} has been deleted'
   re_processword_not_deleted: 'O Processword %{name} não pode ser excluído' #'The Processword %{name} could not be deleted'
   re_processword_validation_error: 'Erro com Processword: %{msg}' #'Processword error: %{msg}'
