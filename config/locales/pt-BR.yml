@@ -497,7 +497,7 @@ pt-BR:
   #my blocks
 
   relations: 'Relações' #'Relations'
-  main_tab: 'Aba principal #'Main tab'
+  main_tab: 'Aba principal' #'Main tab'
   comments: 'Comentários' #'Comments'
   new_comment: 'Novo comentário' #'New Comment' 
   new_comment_text: 'Comentário' #'Comment Text:'
