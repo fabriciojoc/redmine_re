@@ -535,7 +535,7 @@ pt-BR:
   re_unselect_all: 'Cancelar seleção de tudo' #'Unselect all'
   re_filter_apply: 'Aplicar' #'Apply'
   re_filter_save: 'Salvar' #'Save'
-  re_filter_save_and_apply: 'Salavr e aplicar' #'Save & Apply'
+  re_filter_save_and_apply: 'Salvar e aplicar' #'Save & Apply'
   re_filter_source_artifacts: 'Origem' #'Source'
   re_filter_sink_artifacts: 'Destino' #'Sink'
   re_filter_related_issues: 'Tarefas relacionadas' #'Related Issues'
