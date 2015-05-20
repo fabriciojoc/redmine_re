@@ -593,6 +593,9 @@ pt-BR:
 
   #export
   re_export: 'Exportar' #'Export'
+  
+  #header
+  re_create_new_requirement_artifact: 'Criar novo artefato de requisitos'
 
   re_edit_default_description: 'Editar descrição padrão' #'Edit default description'
 
