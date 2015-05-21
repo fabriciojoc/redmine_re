@@ -5,9 +5,9 @@
     <tr>
       <th>Name</th>
       <% if include_project %>
-      <th>Project</th>
+      <th><%= t(:re_project) %></th>
       <% end %>
-      <th>Last Update</th>
+      <th><%= t(:re_last_update) %></th>
       <th class="actions"></th>
     </tr>
     </thead>
@@ -27,11 +27,11 @@
             by <%= link_to query.updated_by.to_s, query.updated_by %>
           </td>
           <td class="actions">
-            <%= link_to 'Execute', re_query_path(query.project_id, query), :class => 'icon icon-checked' %>
+            <%= link_to t(:re_execute), re_query_path(query.project_id, query), :class => 'icon icon-checked' %>
             <% if query.editable? %>
-                <%= link_to 'Edit', edit_re_query_path(query.project_id, query), :class => 'icon icon-edit' %>
-                <%= link_to 'Remove', delete_re_query_path(query.project_id, query),
-                            :confirm => 'Are you sure?', :class => 'icon icon-del' %>
+                <%= link_to t(:re_edit), edit_re_query_path(query.project_id, query), :class => 'icon icon-edit' %>
+                <%= link_to t(:re_delete), delete_re_query_path(query.project_id, query),
+                            :confirm => t(:re_are_you_sure), :class => 'icon icon-del' %>
             <% end %>
           </td>
         </tr>

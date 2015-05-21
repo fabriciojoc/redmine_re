@@ -5,15 +5,15 @@
 <table class="list" id="myTableOR<%=project.id%>">
   <thead>
   <tr>
-    <th>Requirements</th>
-    <th colspan="2">Connected Issues </th>
+    <th><%= t(:re_requirements) %></th>
+    <th colspan="2"><%= t(:re_connected_issues) %></th>
   </tr>
   </thead>
   <tbody>
    <tr style="font-weight: bold;">
      <td> </td>
-     <td>Subject</td>
-     <td>Dates</td>
+     <td><%= t(:subject) %></td>
+     <td><%= t(:dates) %></td>
    </tr>
   <% ReRealization.openartifacts_by_due_date(project).each do |artifact| %>
       <tr class="<%= cycle('odd', 'even') %>">

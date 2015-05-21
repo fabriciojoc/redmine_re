@@ -8,11 +8,13 @@ en:
   re_create_a_new: 'Create a new'
   re_of_type: 'of type'
   re_requirements: 'Requirements'
+  re_execute: 'Execute'
   re_save: 'Save'
   re_cancel: 'Cancel'
   re_edit: 'Edit'
   re_delete: 'Delete'
   re_show: 'Show'
+  re_project: 'Project'
   re_requirements_overview: 'Requirements Overview'
   re_create_new_artifacts: 'Create New Artifacts'
   re_create_child: 'Create Child'
@@ -62,6 +64,8 @@ en:
   re_by: 'by'
   re_at: 'at'
   re_directed: 'directed'
+  re_requirements_artifacts: 'Requirements Artifacts'
+  re_connected_issues: "Connected Issues"
 
   # Configuration
   re_administrate: 'Administration'
@@ -596,8 +600,8 @@ en:
   re_trace_requirement_description: 'You also may like to visualize the traces for the requirements artifacts you created. Right click on an artifact to show visualizations.
   
   #controller_messages
-  re_rating_saved:"Your rating has been saved"
-  re_could_not_be_rated:"Could not be rated"
+  re_rating_saved: "Your rating has been saved"
+  re_could_not_be_rated: "Could not be rated"
   re_rating_updated: "Your rating has been updated"
 
   #export

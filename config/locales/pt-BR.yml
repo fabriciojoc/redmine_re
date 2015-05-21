@@ -10,11 +10,13 @@ pt-BR:
   re_create_a_new: 'Criar um novo'
   re_of_type: 'do tipo'
   re_requirements: 'Requisitos'
+  re_execute: 'Executar'
   re_save: 'Salvar'
   re_cancel: 'Cancelar'
   re_edit: 'Editar'
   re_delete: 'Remover'
   re_show: 'Mostrar'
+  re_project: 'Projeto'
   re_requirements_overview: 'Visão geral dos requisitos'
   re_create_new_artifacts: 'Criar novo artefato'
   re_create_child: 'Criar filho'
@@ -64,6 +66,8 @@ pt-BR:
   re_by: 'por' #'by'
   re_at: 'em' #'at'
   re_directed: 'dirigido' #'directed'
+  re_requirements_artifacts: 'Artefatos de Requisitos'
+  re_connected_issues: "Tarefas Relacionadas"
 
   # Configuration
   re_administrate: 'Administração'  #'Administration'
