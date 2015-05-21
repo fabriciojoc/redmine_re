@@ -15,7 +15,7 @@
   <% configured_description = ReSetting.get_plain('plugin_description', @project.id) %>
   <% if configured_description.nil? or configured_description == '' %>
       <% if User.current.allowed_to?(:edit_requirements, @project) %>
-          <h2><%= t(:re_create_new_requirement_artifact) %>t</h2>
+          <h2><%= t(:re_create_new_requirement_artifact) %></h2>
       <% elsif  User.current.allowed_to?(:view_requirements, @project) %>
           <h2>Requirements Artifact</h2>
       <% end %>
@@ -43,10 +43,10 @@
   <% end %>
 </fieldset>
 
-  <h2>Trace your requirements</h2>
+  <h2><%=t(re_trace_your_requirement_artifact)%></h2>
 
   <p>
-    You also may like to visualize the traces for the requirements artifacts you created. Right click on an artifact to show visualizations.
+    <%=t(re_trace_requirement_description)%>
   </p>
   <div style="clear:both;"></div>
-</div>
+</div> 
