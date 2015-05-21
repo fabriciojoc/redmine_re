@@ -588,6 +588,13 @@ en:
   re_text_artifact_updated_new_comment: "New comment added by %{author}:"
 
   connect_issue: "Connect issue"
+  
+  
+  #header
+  re_create_new_requirement_artifact: 'Create new requirement artifact'
+  re_trace_your_requirement_artifact: 'Trace your requirement artifact'
+  re_trace_requirement_description: 'You also may like to visualize the traces for the requirements artifacts you created. Right click on an artifact to show visualizations.
+  
 
   #export
   re_export: 'Export'
