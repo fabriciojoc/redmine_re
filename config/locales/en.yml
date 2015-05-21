@@ -64,6 +64,7 @@ en:
   re_by: 'by'
   re_at: 'at'
   re_directed: 'directed'
+  re_requirements_artifacts: 'Requirements Artifacts'
 
   # Configuration
   re_administrate: 'Administration'

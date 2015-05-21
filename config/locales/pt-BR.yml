@@ -66,6 +66,7 @@ pt-BR:
   re_by: 'por' #'by'
   re_at: 'em' #'at'
   re_directed: 'dirigido' #'directed'
+  re_requirements_artifacts: 'Artefatos de Requisitos'
 
   # Configuration
   re_administrate: 'Administração'  #'Administration'

@@ -17,7 +17,7 @@
       <% if User.current.allowed_to?(:edit_requirements, @project) %>
           <h2><%= t(:re_create_new_requirement_artifact) %></h2>
       <% elsif  User.current.allowed_to?(:view_requirements, @project) %>
-          <h2>Requirements Artifact</h2>
+          <h2><%= t(:re_requirements_artifacts) %></h2>
       <% end %>
        
        <% s = "" %>       
