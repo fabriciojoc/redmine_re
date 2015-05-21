@@ -599,6 +599,8 @@ pt-BR:
   re_trace_your_requirement_artifact: 'Registre os seus requisitos'
   re_trace_requirement_description: 'Você também pode gostar de visualizar os registros para os requisitos que você criou. Clique com o botão direito em um artefato para exibir.' #You also may like to visualize the traces for the requirements artifacts you created. Right click on an artifact to show visualizations.
 
+  #controller_messages
+  re_rating_saved: "Sua classificação foi salva"
 
   re_edit_default_description: 'Editar descrição padrão' #'Edit default description'
 
