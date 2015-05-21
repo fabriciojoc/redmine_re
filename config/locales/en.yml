@@ -595,6 +595,10 @@ en:
   re_trace_your_requirement_artifact: 'Trace your requirement artifact'
   re_trace_requirement_description: 'You also may like to visualize the traces for the requirements artifacts you created. Right click on an artifact to show visualizations.
   
+  #controller_messages
+  re_rating_saved:"Your rating has been saved"
+  re_could_not_be_rated:"Could not be rated"
+  re_rating_updated: "Your rating has been updated"
 
   #export
   re_export: 'Export'
