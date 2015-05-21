@@ -7,7 +7,7 @@ pt-BR:
       short: "%d/%m/%y, %H:%M"
 
   # general stuff
-  re_create_a_new: 'Criar um novo'
+  re_create_a_new: 'Criar um(a) novo(a)'
   re_of_type: 'do tipo'
   re_requirements: 'Requisitos'
   re_execute: 'Executar'
@@ -202,8 +202,8 @@ pt-BR:
   re_delete_project_artifact_error: 'O artefato do projeto não pode ser excluído.'  #'The project artifact cannot be deleted.'
 
   #re_requirement
-  re_requirement: 'Requisitos'  #'Requirement'
-  re_new_re_requirement: 'Requisitos' #'Requirement'
+  re_requirement: 'Requisito'  #'Requirement'
+  re_new_re_requirement: 'Requisito' #'Requirement'
   re_create_re_requirement: 'Criar requisito' #'Create Requirement'
   re_requirement_priority:  'Prioridade'  #'Priority'
   re_requirement_saved: 'Requisito salvo com sucesso' #'Requirement saved successfully'
@@ -391,8 +391,8 @@ pt-BR:
   re_export_error: 'Erro durante a exportação. Por favor tenha certeza que pandoc está instalado e o formato de saída está configurado nas configurações.' #'Error during export. Please make sure pandoc is installed and an output format is configured in the settings.'
   re_export_format_configuration:  'Configuração de formato de exportação' #'Export Format Configuration'
   # re_requirement
-  re_requirement:  'Requisitos' #'Requirement'
-  ReRequirement: 'Requisitos' #'Requirement'
+  re_requirement:  'Requisito' #'Requirement'
+  ReRequirement: 'Requisito' #'Requirement'
   re_artifact_configuration: 'Configuração de artefato' #'Artifact Configuration'
 
   #re_use_case
@@ -600,8 +600,8 @@ pt-BR:
   re_export: 'Exportar' #'Export'
   
   #header
-  re_create_new_requirement_artifact: 'Criar novo artefato de requisitos'
-  re_trace_your_requirement_artifact: 'Registre os seus requisitos'
+  re_create_new_requirement_artifact: 'Criar novo artefato de requisito'
+  re_trace_your_requirement_artifact: 'Registre os seus requisito'
   re_trace_requirement_description: 'Você também pode gostar de visualizar os registros para os requisitos que você criou. Clique com o botão direito em um artefato para exibir.' #You also may like to visualize the traces for the requirements artifacts you created. Right click on an artifact to show visualizations.
 
   #controller_messages
