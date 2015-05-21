@@ -597,6 +597,8 @@ en:
   
   #controller_messages
   re_rating_saved:"Your rating has been saved"
+  re_could_not_be_rated:"Could not be rated"
+  re_rating_updated: "Your rating has been updated"
 
   #export
   re_export: 'Export'

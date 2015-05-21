@@ -601,6 +601,8 @@ pt-BR:
 
   #controller_messages
   re_rating_saved: "Sua classificação foi salva"
+  re_could_not_be_rated:"Não foi possível classificar"
+  re_rating_updated: "Sua classificação foi atualizada"
 
   re_edit_default_description: 'Editar descrição padrão' #'Edit default description'
 

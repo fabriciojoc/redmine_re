@@ -9,10 +9,10 @@ class ReRatingsController < ApplicationController
 
     respond_to do |format|
       if @rating.save
-        format.html { redirect_to @rap, :notice => 'Your rating has been saved' }
+        format.html { redirect_to @rap, :notice => t(:rating_saved).html_safe }
         format.js
       else
-        format.html { redirect_to @rap, :notice => 'Could not be rated' }
+        format.html { redirect_to @rap, :notice => t(:re_could_not_be_rated).html_safe }
       end
     end
   end
@@ -22,7 +22,7 @@ class ReRatingsController < ApplicationController
     @rating = User.current.re_ratings.find_by_re_artifact_properties_id(@rap.id)
     if @rating.update_attributes(params[:re_rating])
       respond_to do |format|
-        format.html { redirect_to @rap, :notice => "Your rating has been updated" }
+        format.html { redirect_to @rap, :notice => t(:re_rating_updated).html_safe }
         format.js
       end
     end
