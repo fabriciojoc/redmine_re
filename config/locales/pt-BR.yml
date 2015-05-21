@@ -520,6 +520,7 @@ pt-BR:
   todo: 'Tickets abertos' #'Open Tickets'
   progress: 'Progresso' #'Progress' 
   requirement_progress: 'Progresso do requisito' #'Requirement Progress'
+  open_issues: "Tarefas Abertas"
 
   rating: 'Classificação' #'Rating'
   rating_average: 'Média de classificação' #'Rating average'

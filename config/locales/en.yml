@@ -518,6 +518,7 @@ en:
   todo: 'Open Tickets'
   progress: 'Progress'
   requirement_progress: 'Requirement Progress'
+  open_issues: "Open Issues"
 
   rating: 'Rating'
   rating_average: 'Rating average'
