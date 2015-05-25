@@ -52,7 +52,7 @@ class ReArtifactRelationshipController < RedmineReController
     relation = params[:re_artifact_relationship]
 
     if ReArtifactRelationship::SYSTEM_RELATION_TYPES.values.include?(relation[:relation_type]) 
-      raise ArgumentError, "You are not allowed to create a parentchild relationship!"
+      raise ArgumentError, t(:re_you_are_not_allowed_to_create_a_parentchild_relationship)
     end
 
     @new_relation = ReArtifactRelationship.new(:source_id => artifact_properties_id, :sink_id => relation[:artifact_id], :relation_type => relation[:relation_type])
